@@ -1,0 +1,470 @@
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h1:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.01);
+  transition: all 0.3s ease;
+  text-decoration: underline;
+}
+.nav-links {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+
+  word-spacing: 5cm;
+  background-color: lightgrey;
+  font-family: "Bebas Neue", sans-serif;
+  border-radius: 30px;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+
+  text-decoration: underline;
+}
+main {
+  background-color: rgb(255, 255, 255);
+}
+.sep {
+  padding: 5px;
+  width: 70%;
+  margin: auto;
+  background-color: #d3d3d3;
+  border-radius: 30px;
+}
+.endsep{
+  padding: 5px;
+  width: 100%;
+  margin: auto;
+  background-color: #d3d3d3;
+  border-radius: 30px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  padding-left: 20%;
+
+  border-radius: 8px;
+}
+
+.sec1 {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.f1 {
+  text-align: left;
+  width: 20cm;
+  color: rgb(17, 17, 17);
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.sec2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.f2 {
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  margin: auto;
+  font-size: 40px;
+}
+.subsec2 {
+  gap: 500%;
+  width: 80px;
+  height: 80px;
+  background-color: lightgrey;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.container {
+  border-radius: 30px;
+  padding-bottom: 285px;
+  padding-top: 50px;
+  background-color: lightgrey;
+}
+.courses {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: rgb(142, 144, 146);
+}
+.courses:hover {
+  transform: scale(1.01);
+  transition: all 0.3s ease;
+
+  box-shadow: rgba(212, 212, 212, 0.4) -5px 5px,
+    rgba(145, 145, 145, 0.3) -10px 10px, rgba(107, 107, 107, 0.2) -15px 15px,
+    rgba(51, 51, 51, 0.1) -20px 20px, rgba(22, 22, 22, 0.05) -25px 25px;
+}
+.sec3 {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.f3 {
+  text-align: left;
+  width: 20cm;
+  color: rgb(17, 17, 17);
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  padding-left: 50%;
+}
+.question {
+  width: 300px;
+  height: 300px;
+  padding-left: 20%;
+}
+footer {
+  text-align: center;
+  font-size: 30px;
+
+  font-family: "Bebas Neue", sans-serif;
+}
+h2 {
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  margin-left: 10%;
+}
+.websec1 {
+  display: flex;
+}
+
+.web1 p {
+  padding: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  width: 100%;
+  height: fit-content;
+  margin-left: 10%;
+  border-radius: 8px;
+  background-color: lightgray;
+}
+.web1 h2 {
+  margin-left: 10%;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.web1 img {
+  margin-top: 15%;
+  margin-right: 100px;
+  width: 450px;
+  height: 300px;
+}
+.web2 p {
+  padding: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  width: 70%;
+  height: fit-content;
+  margin-left: 6.5%;
+  border-radius: 8px;
+  background-color: lightgray;
+}
+.web2 h2 {
+  margin-left: 6.5%;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.web2img img {
+  display: block;
+  box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px,
+    rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,
+    rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px,
+    rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px,
+    rgb(255, 85, 85) 40px -40px;
+  margin-top: 35%;
+  margin-left: -25%;
+  padding: 0;
+  width: 450px;
+  height: 300px;
+}
+.web1 .os {
+  margin-top: 15%;
+  margin-right: 100px;
+  width: auto;
+  height: 300px;
+  margin-left: -120px;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  margin-left: -20%;
+}
+.f4 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Bebas Neue", sans-serif;
+  padding-top: 5%;
+  margin:auto;
+} 
+/*.btn{
+  background-color: lightgrey;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 30px;
+  align-items: center;
+  margin-left: 43%;
+  margin-top: 50px;
+  margin-bottom: 4%;
+ 
+  font-family: "Bebas Neue", sans-serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+<!-- HTML !-->
+<button class="button-54" role="button">Button 54</button>
+
+*/
+.btn {
+ font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  margin-left: 43%;
+  margin-top: 50px;
+  margin-bottom: 4%;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+.faculty {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  gap: 230%;
+}
+.faculty h3 {
+  background-color: lightgrey;
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.faculty img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  margin-left: 35%;
+  padding-bottom: 100px;
+}
+details {
+  margin-left: -15%;
+  margin-top: -220px;
+  font-size: 25px;
+  font-family: "Bebas Neue", sans-serif;
+  width: 50%;
+}
+/* ============ SCHEDULE PAGE (scoped) ============ */
+.schedule-page {
+  /* if your header is fixed, push content down a bit; otherwise reduce this */
+  max-width: 1200px;
+  margin: 96px auto 40px;
+  padding: 0 16px;
+}
+
+.schedule-page * {
+  box-sizing: border-box;
+  font-family: "Bebas Neue", system-ui, -apple-system, Segoe UI, Roboto, Arial,
+    sans-serif;
+}
+
+/* Header area inside schedule page */
+.schedule-page__header {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.schedule-page__title {
+  margin: 0;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.1;
+  color: #111;
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.schedule-page__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+}
+
+.schedule-page__field {
+  display: grid;
+  gap: 6px;
+}
+
+.schedule-page__label {
+  font-size: 16px;
+  color: #222;
+}
+
+.schedule-page__input,
+.schedule-page__select {
+  appearance: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 16px;
+  background: #fff;
+  min-width: 220px;
+}
+
+.schedule-page__btn {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 16px;
+  background: #0b3d91;
+  color: #fff;
+  cursor: pointer;
+}
+.schedule-page__btn:hover {
+  filter: brightness(1.05);
+}
+
+/* Sections */
+.schedule-page__section {
+  margin-top: 28px;
+}
+.schedule-page__section-title {
+  margin: 0 0 10px 0;
+  font-size: clamp(22px, 3vw, 32px);
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+/* Table (scoped) */
+.schedule-page__table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden; /* rounds thead corners */
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+}
+.schedule-page__caption {
+  text-align: left;
+  padding: 12px 0;
+  font-weight: 600;
+  color: #333;
+}
+.schedule-page__table thead th {
+  background: #f5f6f8;
+  text-align: left;
+  padding: 14px 12px;
+  border-bottom: 1px solid #e7e9ee;
+  font-size: 18px;
+}
+.schedule-page__table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #f0f1f4;
+  vertical-align: top;
+  font-size: 18px;
+}
+.schedule-page__table tr:last-child td {
+  border-bottom: 0;
+}
+
+.schedule-page__link {
+  color: #0b3d91;
+  text-decoration: none;
+}
+.schedule-page__link:hover {
+  text-decoration: underline;
+}
+
+/* Progress + list */
+.schedule-page__progress {
+  width: min(480px, 100%);
+  height: 12px;
+}
+.schedule-page__list {
+  margin: 0;
+  padding-left: 18px;
+}
+.schedule-page__list li {
+  margin: 6px 0;
+}
+
+/* Responsive tweaks */
+@media (max-width: 720px) {
+  .schedule-page {
+    margin: 80px auto 32px;
+    padding: 0 12px;
+  }
+  .schedule-page__table thead {
+    display: none;
+  }
+  .schedule-page__table tr {
+    display: grid;
+    gap: 6px;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+  }
+  .schedule-page__table td {
+    border: 0;
+    padding: 4px 0;
+  }
+  .schedule-page__table td::before {
+    content: attr(data-label);
+    display: block;
+  }
+}

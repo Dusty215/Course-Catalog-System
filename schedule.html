@@ -1,0 +1,114 @@
+<head>
+  <title>Course Catalog System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="description" content="Course Catalog System" />
+  <meta name="auther" content="Ahmed Adil - Marwaan Aljihani  " />
+  <link rel="stylesheet" href="Style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<header>
+  <nav>
+    <a href="catalog.html"><h1>Course Catalog System</h1></a>
+    <ul class="nav-links">
+      <a href="course-detail.html">course-detail</a>
+      <a href="schedule.html">schedule</a>
+      <a href="faculty.html">faculty</a>
+    </ul>
+  </nav>
+</header>
+<main class="schedule-page" role="main">
+  <header class="schedule-page__header">
+    <h2 class="schedule-page__title">Spring 2025 Course Schedule</h2>
+
+    <form class="schedule-page__filters" action="#" method="get">
+      <label class="schedule-page__field">
+        <span class="schedule-page__label">Search course</span>
+        <input class="schedule-page__input" type="search" name="q" placeholder="e.g., Security" />
+      </label>
+      <label class="schedule-page__field">
+        <span class="schedule-page__label">Day</span>
+        <select class="schedule-page__select" name="day">
+          <option value="">Any</option>
+          <option>Monday</option>
+          <option>Wednesday</option>
+          <option>Friday</option>
+        </select>
+      </label>
+      <button class="schedule-page__btn" type="submit">Filter</button>
+    </form>
+  </header>
+
+  <section class="schedule-page__section" aria-labelledby="tbl-title">
+    <h3 id="tbl-title" class="schedule-page__section-title">Weekly Timetable</h3>
+
+    <table class="schedule-page__table">
+      <caption class="schedule-page__caption">Semester timetable with capacity</caption>
+      <thead>
+        <tr>
+          <th scope="col">Course</th>
+          <th scope="col">Day</th>
+          <th scope="col">Time</th>
+          <th scope="col">Room</th>
+          <th scope="col">Capacity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="schedule-page__link" href="course-webdev.html">Web Development</a></td>
+          <td>Monday</td>
+          <td>
+            <time datetime="2025-03-03T09:00">09:00</time>–<time datetime="2025-03-03T11:00">11:00</time>
+          </td>
+          <td>Lab A101</td>
+          <td><meter value="30" min="0" max="40" low="20" high="35" optimum="40">30/40</meter></td>
+        </tr>
+        <tr>
+          <td><a class="schedule-page__link" href="course-netsec.html">Cyber Threats</a></td>
+          <td>Wednesday</td>
+          <td>
+            <time datetime="2025-03-05T13:00">13:00</time>–<time datetime="2025-03-05T15:00">15:00</time>
+          </td>
+          <td>Room B202</td>
+          <td><meter value="38" min="0" max="40" low="20" high="35" optimum="40">38/40</meter></td>
+        </tr>
+        <tr>
+          <td><a class="schedule-page__link" href="course-ai.html">Operating Systems</a></td>
+          <td>Friday</td>
+          <td>
+            <time datetime="2025-03-07T10:00">10:00</time>–<time datetime="2025-03-07T12:00">12:00</time>
+          </td>
+          <td>Hall C303</td>
+          <td><meter value="15" min="0" max="40" low="20" high="35" optimum="40">15/40</meter></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="schedule-page__section" aria-labelledby="progress-title">
+    <h3 id="progress-title" class="schedule-page__section-title">Your Enrollment Progress</h3>
+    <progress class="schedule-page__progress" value="2" max="5">2 of 5</progress>
+  </section>
+
+  <section class="schedule-page__section" aria-labelledby="resources-title">
+    <h3 id="resources-title" class="schedule-page__section-title">Downloads</h3>
+    <ul class="schedule-page__list">
+      <li><a class="schedule-page__link" href="files/spring2025-schedule.pdf" type="application/pdf">PDF</a></li>
+      <li><a class="schedule-page__link" href="files/spring2025-schedule.csv" type="text/csv">CSV</a></li>
+    </ul>
+  </section>
+</main>
+
+</html>
+
+<footer>
+  <div class="endsep"></div>
+  <p>authers: Ahmed Adil - Marwan Aljihani - Abdalaziz Alofi</p>
+  <p>Copyright &copy; 2025 Course Catalog System</p>
+
+</footer>
