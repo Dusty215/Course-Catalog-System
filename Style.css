@@ -307,10 +307,9 @@ details {
   font-family: "Bebas Neue", sans-serif;
   width: 50%;
 }
-/* ============ SCHEDULE PAGE (scoped) ============ */
+
 .schedule-page {
-  /* if your header is fixed, push content down a bit; otherwise reduce this */
-  max-width: 1200px;
+ 
   margin: 96px auto 40px;
   padding: 0 16px;
 }
@@ -321,7 +320,7 @@ details {
     sans-serif;
 }
 
-/* Header area inside schedule page */
+
 .schedule-page__header {
   display: grid;
   gap: 16px;
@@ -379,7 +378,7 @@ details {
   filter: brightness(1.05);
 }
 
-/* Sections */
+
 .schedule-page__section {
   margin-top: 28px;
 }
@@ -391,13 +390,13 @@ details {
   border-radius: 30px;
 }
 
-/* Table (scoped) */
+
 .schedule-page__table {
   width: 100%;
   border-collapse: collapse;
   background: #fff;
   border-radius: 14px;
-  overflow: hidden; /* rounds thead corners */
+  overflow: hidden; 
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
 }
 .schedule-page__caption {
@@ -444,27 +443,4 @@ details {
   margin: 6px 0;
 }
 
-/* Responsive tweaks */
-@media (max-width: 720px) {
-  .schedule-page {
-    margin: 80px auto 32px;
-    padding: 0 12px;
-  }
-  .schedule-page__table thead {
-    display: none;
-  }
-  .schedule-page__table tr {
-    display: grid;
-    gap: 6px;
-    padding: 12px;
-    border-bottom: 1px solid #eee;
-  }
-  .schedule-page__table td {
-    border: 0;
-    padding: 4px 0;
-  }
-  .schedule-page__table td::before {
-    content: attr(data-label);
-    display: block;
-  }
-}
+
